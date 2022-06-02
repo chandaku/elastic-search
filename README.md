@@ -1,5 +1,7 @@
 # elastic-search
 
+https://reflectoring.io/spring-boot-elasticsearch/
+
 #### Create an index twitter with two fields name and sex with their specific type
 
 https://localhost:9200/twitter?pretty
