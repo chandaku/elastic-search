@@ -86,7 +86,7 @@ https://localhost:9200/twitter/_doc/1
         }
     }
 }
-
+```
 #### Search inside a given index and query out response data
 
 POST -->
