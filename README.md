@@ -115,4 +115,14 @@ For Version
     }
 }
 ```
+Prefix Query
 
+```
+{
+    "query": {
+        "prefix": {
+            "labels.priority": "urg"
+        }
+    }
+}
+```
