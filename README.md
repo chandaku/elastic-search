@@ -55,6 +55,9 @@ PUT -->
             },
             "createdOn" : {
                 "type" : "date"
+            },
+            "labels" : {
+                "type" : "flattened"
             }
         }
     }``` 
@@ -73,6 +76,14 @@ https://localhost:9200/twitter/_doc/1
     "phone_number": "9999161236",
     "old": "YES",
     "salary": 200.2,
-    "createdOn": "2022-02-02"
+    "createdOn": "2022-02-02",
+    "labels": {
+        "priority": "urgent",
+        "release": ["v1.2.5", "v1.3.0"],
+        "timestamp": {
+          "created": 1541458026,
+          "closed": 1541457010
+        }
+  }
 }
 
