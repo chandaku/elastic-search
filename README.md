@@ -5,7 +5,7 @@
 https://localhost:9200/twitter?pretty
 
 PUT --> 
-
+```
     {
         "settings": {
             "number_of_shards": 3,
@@ -22,14 +22,15 @@ PUT -->
             }
         }
     }
-    
+```    
 #### Modify an index twitter with more properties 
 
 https://localhost:9200/twitter/_mapping
 
 PUT -->
     
-   ```json{
+   ```
+   {
         "properties": {
             "name": {
                 "type": "text"
@@ -60,14 +61,15 @@ PUT -->
                 "type" : "flattened"
             }
         }
-    }``` 
+    }
+``` 
     
 #### Put a document to twitter index as follows
 
 PUT -->
 
 https://localhost:9200/twitter/_doc/1
-
+```
 {
     "name": "Radhe Shyam",
     "sex": false,
