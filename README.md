@@ -84,6 +84,6 @@ https://localhost:9200/twitter/_doc/1
           "created": 1541458026,
           "closed": 1541457010
         }
-  }
+    }
 }
 
