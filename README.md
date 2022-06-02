@@ -58,4 +58,19 @@ PUT -->
             }
         }
     } 
+    
+#### Put a document to twitter index as follows
+
+https://localhost:9200/twitter/_doc/1
+
+```{
+    "name": "Radhe Shyam",
+    "sex": false,
+    "age": 21,
+    "password": "U29tZSBiaW5hcnkgYmxvYg==",
+    "phone_number": "9999161236",
+    "old": "YES",
+    "salary": 200.2,
+    "createdOn": "2022-02-02"
+}```
 
