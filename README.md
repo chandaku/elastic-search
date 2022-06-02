@@ -61,9 +61,11 @@ PUT -->
     
 #### Put a document to twitter index as follows
 
+PUT -->
+
 https://localhost:9200/twitter/_doc/1
 
-```{
+{
     "name": "Radhe Shyam",
     "sex": false,
     "age": 21,
@@ -72,5 +74,5 @@ https://localhost:9200/twitter/_doc/1
     "old": "YES",
     "salary": 200.2,
     "createdOn": "2022-02-02"
-}```
+}
 
