@@ -126,3 +126,14 @@ Prefix Query
     }
 }
 ```
+Match Query
+
+```
+{
+    "query": {
+        "match": {
+            "name": "Radhe"
+        }
+    }
+}
+```
