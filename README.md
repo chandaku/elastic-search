@@ -57,7 +57,7 @@ PUT -->
                 "type" : "date"
             }
         }
-    } 
+    }``` 
     
 #### Put a document to twitter index as follows
 
