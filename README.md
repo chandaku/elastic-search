@@ -104,4 +104,15 @@ https://localhost:9200/twitter/_search
     }
 }
 ```
+For Version
+
+```
+{
+    "query": {
+        "term": {
+            "labels.release": "v1.2.5"
+        }
+    }
+}
+```
 
