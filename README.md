@@ -5,7 +5,7 @@
 https://localhost:9200/twitter?pretty
 
 PUT --> 
-    ```json{
+    ```json {
         "settings": {
             "number_of_shards": 3,
             "number_of_replicas": 2
@@ -20,7 +20,7 @@ PUT -->
                 }
             }
         }
-    }```
+    } ```
 #### Modify an index twitter with more properties 
 
 https://localhost:9200/twitter/_mapping
@@ -55,5 +55,5 @@ PUT -->
                 "type" : "date"
             }
         }
-    }```
+    } ```
 
